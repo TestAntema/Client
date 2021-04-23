@@ -1,0 +1,13 @@
+<div class="col-md-6" *ngFor="let voiture of voitures">
+  <div class="card" style="width: 18rem;">
+    <div class="card-header">
+      <h5 class="card-title">{{voiture.marque}}</h5>
+    </div>
+    <div class="card-body">
+      <p class="card-text">Marque : {{voiture.modele}}</p>
+      <p class="card-text">{{voiture.ficheTech}}</p>
+      <p class="card-text">Prix : {{voiture.prix}} Euro</p>
+      <a href="#" class="btn btn-primary">Voir Commentaire</a>
+    </div>
+  </div>
+</div>
